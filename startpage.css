@@ -5,88 +5,94 @@
   background-color: rgb(243, 180, 240);
 }
 
-h1 {
-  text-shadow: 0 0 2px gr;
+main {
   display: flex;
   justify-content: center;
-  border: 10px solid black;
-  border-style: dashed;
-  border-radius: 5px;
-  margin-bottom: 40px;
+  flex-direction: column;
+}
+
+.pic {
+  size: 50px;
+}
+.header1 {
+  display: flex;
+  justify-content: center;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+}
+
+.questiontext {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid 
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.fragezeichen {
+  max-width: 20%;
+  height: auto;
   padding: 20px;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
-.question {
+.navbar {
   display: flex;
-  justify-content: center;
-  border: 5px solid black;
-  border-style:groove
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-.question-text {
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-.answer {
-  display: flex;
-  justify-content: center;
-  border: 5px solid black;
-  border-style:groove;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  justify-content: space-evenly;
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
 }
 
 .boxes {
   display: flex;
   justify-content: space-evenly;
-  position: relative
-  bottom: 60px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.answer {
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+ 
+}
+.confirm {
+    display: flex;
+    justify-content: center;
+   
 }
 
 .cssbox {
-  display: flex;
-  border: 5px solid grey;
-  border-radius: 5px;
-  padding: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: whitesmoke;
 }
 
 .htmlbox {
-  display: flex;
-  border: 5px solid grey;
-  border-radius: 5px;
-  padding: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: whitesmoke;
 }
 
 .flexboxbox {
-  display: flex;
-  border: 5px solid grey;
-  border-radius: 5px;
-  padding: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: whitesmoke;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  bottom: 50px;
-  width: 100%;
-}
-
-.fragezeichen {
-    display: flex;
-    width: 100%
-    max-height: 450px;
-max-width: 300px;
-width: 180px;
-height: 220px;
-margin-top: 25px;
+.divsalat {
+    border: 2px solid black;
+    border-radius: 4px;
 }
